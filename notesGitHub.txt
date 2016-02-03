@@ -1,0 +1,35 @@
+Take notes to post on github
+
+use plain text (notepad)
+
+Git (distributed version control)
+
+saves whole history for anyone who gets a file
+
+
+open Git Bash
+
+can use tab to autocomplete
+
+pwd print working directory
+ls lists what is in directory
+cd change directory + location
+clear - clears screen
+cd .. goes back one level
+cd ../.. goes up two
+git config --global user.name gets name use quotes to change name "nick Parr"
+git config --global user.email
+mkdir make +anyName directory
+rmdir +name remove directory
+mv name + new name changes name
+git init creates repository
+git status
+rm -rf .git removes repository
+
+repository is a project folder
+git repository keeps track of changes if a hidden folder
+
+committed changes are additive
+
+clear
+
