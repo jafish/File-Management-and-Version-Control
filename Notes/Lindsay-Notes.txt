@@ -38,7 +38,7 @@ Important CMD Commands:
     clear = pretties up the screen
     man = "manual" learn about a command. ex: man pwd
     cd .. = change directory goes up a level
-    cd ../.. = goes up two levels (say from screenshots to users)
+    cd ../.. = goes up two levels (say from screenshots to users) (../../../ is 3)
     git config --global user.name[or ".email"] = housekeeping command: tell git who we are, I want this to apply to all repositories that I make. Putting quotes afterwards with something in it, will change your name
     mkdir = Make Directory
     rmdir = Remove directory (Only possible if the repository is empty)
@@ -103,3 +103,11 @@ Questions for class which are clarifications and not quite "issues":
     
 Day 2 Notes:
 
+Minutes:
+    The class discusses differences between subrepositories and (subdirectories?) and the pros / cons of adding our own work to the class repository. Different ways of using GitHub will happen depending on our work enviornment and what the people around us decide will be their practice.
+    The class clones the class repository. (Using the https url.) We do this as opposed to a fork (as Kevin from outside our class did), because a fork would be for anticipating needing to reconnect our changes to the official files without being members ourselves. Since we are members and have authority, we clone.
+    Having updated our own repositories of our notes, the class commits our changes, "mv"s our files out of our personal repositories and into (renamed) into the class repository.
+    If we have an error for an "upstream branch," we should re-try a pull request, for the most updated master copy of our class repository.
+    We commit our own notes to the class folder (make sure you're putting it in the Notes folder)
+    A useful error to remember how to navigate, is that our professor has two-factor authentication turned on for github, and he cannot login to github through git Bash, because the command line doesn't support or understand this method. He has to set up an SSH key so he can do the login.
+    Break - after we will talk about SSH
