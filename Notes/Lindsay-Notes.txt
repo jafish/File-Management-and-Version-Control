@@ -1,0 +1,105 @@
+VERSION CONTROL CLASS NOTES TEXT FILE: 
+Lindsay Fenwick
+Day 1
+
+Minutes:
+    Class syllabus and being in class, rules for achiving standard of work
+    Difference between plain text and hypertext
+    Submit to the class wiki (on github)
+    Ask questions on the "issues" of github section
+    Git is not like a library where you "check out" a file, you have access to the whole history yourself, and so do people who clone your files.
+    [The class installs GIT]
+    We're working off the comand line funciton in "Git CMD" to create a more standardized class environment between macs and windows computers
+    Git was originated from Linus (Last Name) who worked on Linnux
+    Class project working on creating a repository
+    Break
+    Class asked questions
+    GitHub is a "remote" which is a synchronization tool
+    Covering the GitHub class repository
+
+Notes:
+    **Use Git BASH - for these commands
+
+    A git repository is a "hidden" (optionally shown) folder of history of changes in your file control, when you create a repository for your project. In other words, it is a folder of info within your project, not hidden "within git"
+
+    Git opperates on commits, not saves. You can save as many versions as you want, but commits are what it keeps.
+
+    **A strange note, "objects" are a commited change, usually.
+
+    Repository = folder = project
+    
+    You CAN set up a remote repository on your web server that you own, taking out the GitHub middleman, but GitHub is a nice way to add functionality (such as user comments) Instead of like a .html it's a .git (cloneable set of folders)
+
+Important CMD Commands:
+--These will be used most often, likely you won't use others--
+    pwd = learn where I am
+    ls = Learn where I can go
+    cd [insert place] = Navigate to a space. Stands for "change directory"
+    clear = pretties up the screen
+    man = "manual" learn about a command. ex: man pwd
+    cd .. = change directory goes up a level
+    cd ../.. = goes up two levels (say from screenshots to users)
+    git config --global user.name[or ".email"] = housekeeping command: tell git who we are, I want this to apply to all repositories that I make. Putting quotes afterwards with something in it, will change your name
+    mkdir = Make Directory
+    rmdir = Remove directory (Only possible if the repository is empty)
+    mv [thing you want to act on] [thing you want to change to]= "Move" How you rename a file
+    git init = Create a repository
+    git status = Status, obviously
+    rm - rf .git = REMOVES EVERYTHING WITHIN THE FOLDER YOU GIVE IT
+    git add = not a commit, asking it to look at this file next time you think about committing. Changing a file from untracked to tracked
+    git commit -m "" = your comments
+        OR
+        git commit --message "" = your comments
+    git rm [filename] = "Remove" If your "addition to the repository" is a deletion of a file, you can't go using the Add command, so use this to "really" delete the file, to move on to your commit
+    git clone [url] = Will put a repository that you find on github in this current folder location
+    If your folder has a space in the name ("Version Control") you can put quotes around it when using ls to navigate through it.
+    
+To utlize the move folder function in a way that isn't renaming:
+    mv ../ClassNotes.txt .
+    move upper directory file name to current place
+    
+Homework for Day 2
+(Notes for Chapters 1-3)
+
+Chapter 1: Thinking in Versions
+    Version control systems like git can be thought of as saving "versions" not as saving each thing each time (you likely don't commit the 18 saves you make in an hour of working)
+    Manually saving file versions might work fine on "a photoshop doc" but with something like a team, or something complex like a website, git works best
+    Git can be hosted on a small orange, for example, and each coworker can access that repository from their computer. Very easy for work situations
+    Git repositories might even be on a dropbox or google drive folder? Of course, they're likely to be on github
+    Understanding that with things like Dropbox, the working copy on your computer can be accessed offline, but that the centralized server-based copy is the master version. With Git, a decentralized verion control system, an entire copy of every part of the history of that file is available on everyone's computer and the server.
+    Using git is conceptually different in how we understand change - it's not one file that is being changed, but three versions of files, the old master, the working copy, and the new master. All exsist.
+    
+Chapter 2: Basics
+    The command line is a shell, in that it protects you from doing too much (?) but that you could still delete your entire opperating system from it, so, is it really saving you from anything?
+    Bash is the name of a common shell
+    Don't be afraid if it's terse - sometimes running something will not let you know anything happened at all, if it was sucessfull. It'll just make a new directory and that's that.
+    You can type something specific after ls (ls foldername) which will let you look into the contents of that folder without having to navigate to it.
+    (master) $: = indicates that we're on the git branch which is the master. an * after the word master indicated uncommitted changes in our working copy (a difference between our copy and the master)
+    Pg. 35: Before you can commit, you need to track. Before you can track, you need to add to the git database. (but "track" is not a command, just what is a part of adding)
+    Committing is NOT adding a file. It's adding a change to an existing file, even if that change was negative (delete these lines). Because of that, the first thing we need to do is add a file. 
+    **Question I suppose: adding a file is not the same as creating a repository, as I understand it, because your repository could be for your entire website, where you added a second css file for some reason. (Resolved: yes)
+    Another name for git add is "staging"
+    Unlike the rest of the centralized system, the staging area is on your computer alone
+    Pg.40: You can "add" a list of many things, including files you just want to commit updates to, all in one line.
+    Removing files from git is the rm line, not deleting a file, but doing it's best to act like it is.
+    Git not understanding us manually moving files in folders-- you can always "explain yourself to git later" but you can also see this as incentive to do things git's way
+    The add --all command... don't overthink it. It's good, usefull, you're encouraged to use it.
+    
+Chapter 3: Branches
+    Most basic level: branches are scratch pads that could possibly turn into something down the line.
+    Oh god, terrible knowledge to learn, that commits can be made to multiple branches, and branches aren't like folders or singular "places" (see p.52)
+    You can think of branches like an inbox filter called "notes from mom". Your email can be in the "master" or the "inbox" and also in the "subfolder" or "branch"
+    "topic branches are different than the master branch" just think of the master branch as the trunk, if it's helpful not to think of the "master" as a branch at all.
+    **Imporant: Annoyingly, after creating a new branch, you will CONTINUE to be working off of the master untill you navigate manually to the branch you just created.
+    The checkout command is to switch between branches. If I understand this correctly, someone could still work off of it though?
+    What the master means is up to who works on the project. For a lot of Ruby on Rails open source coding, the master is where their scratchpad is, and branches are stable releases, for some reason.
+    You'll typically synchronize what's in your branch with what's going on in the master
+    To merge, be on the master, and then merge the branch into it. (pg.61 for more details)
+    You can pass the -no-commit command to the git merge if you want it to stage what the merge would look like, without committing to that merge
+    After manually merging any conflicts, you'll do an "add"
+    
+Questions for class which are clarifications and not quite "issues":
+    Explain the checkout command in reference to branches? (p.54)
+    
+Day 2 Notes:
+
