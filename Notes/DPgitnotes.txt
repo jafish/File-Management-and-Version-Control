@@ -1,0 +1,27 @@
+clobber - overwriting/destroying important changes
+Distributed Version Control - Git, Perforce, etc
+repository- basically a project
+staged - file is ready to be submitted
+
+pwd //- print working directory
+ls //- list directory contents
+cd //- change directory [ex: cd ../..]
+clear //- clears window
+man //- (mac) manual for a given command [ex: man ls]
+git config --global user.name/user.email "xxxxx"  //- create username or email
+mkdir //- make directory
+rmdir //- remove directory (if empty)
+mv //- rename a file [ex: mv Version VersionControl //renames Version to VersionControl]
+git init //- initialize empty Git repository
+git status
+git add --all
+git commit [--message/-m] "Initial Commit"
+rm <filename> // remove file
+git rm <filename> // remove file from repository / stage
+git clone <url> // clone repo
+
+
+a git repository is a folder in your project folder where it keeps track of changes
+git commands often act on currect repository only.
+Common syntax format - mv thingYouWantToDo thingYouWantToActOn
+git operates on commmits - only cares about changes that you explicitly commit
