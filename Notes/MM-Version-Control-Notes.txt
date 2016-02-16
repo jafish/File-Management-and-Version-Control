@@ -1,0 +1,38 @@
+2/2/16 - First Class (Git)
+
+
+On That Day:  Version Control, Git Commands, Create first repo.
+
+Distributed version control  
+
+COMMANDS:
+
+pwd - print working directory 
+
+cd - change directory 
+
+ls - list directory contents
+
+man ls- manual list 
+
+cd .. goes back one file
+
+cd ../.. goes back two files (until you’ve reached the root directory)
+
+Repository - project in git 
+
+mkdir - make directory
+
+rmdir - remove directory 
+
+rm - remove 
+
+mv - move 
+
+Each time you commit a change, you’re adding to a repositories history
+
+
+2/16/16 - Second Class (Git)
+
+Commit
+pull request 
