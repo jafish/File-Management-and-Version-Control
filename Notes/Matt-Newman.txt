@@ -1,0 +1,25 @@
+February 2nd, 2016
+Plain text is good
+    .txt extension
+File management systems used to work very similar to libraries
+    you would have to check out files before working on them
+pwd - print working directory
+cd - change directory
+mkdir - make directory
+rmdir - remove directory
+mv - move (utilize to rename files)
+git init - creates synched git repository
+git rm - tells git that the file was removed
+git add - tells git that file was changed/added 
+git status - checks if files are ready for commit
+git commit -- message   - commits to the repository with message
+git clone url- tells git to clone specific url 
+git remote -v - checks what remotes are installed on working directory
+git fetch [remote-name] - fetches info from remote
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+February 16th, 2016
+git pull url - tells git to give you updated git repository
+git push 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+March 1st, 2016
