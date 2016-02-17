@@ -19,6 +19,8 @@ git commit [--message/-m] "Initial Commit"
 rm <filename> // remove file
 git rm <filename> // remove file from repository / stage
 git clone <url> // clone repo
+ssh-keygen // create ssh key stuff
+cat ~/.ssh/id_rsa.pub //to get key, you should then go into GitHub settings to connect this to your github account
 
 
 a git repository is a folder in your project folder where it keeps track of changes
