@@ -39,6 +39,7 @@ Important CMD Commands:
     man = "manual" learn about a command. ex: man pwd
     cd .. = change directory goes up a level
     cd ../.. = goes up two levels (say from screenshots to users) (../../../ is 3)
+    ~/ = do whatever you're commanding from your home directory (C:) For example, ls ~/ would list what's there.
     git config --global user.name[or ".email"] = housekeeping command: tell git who we are, I want this to apply to all repositories that I make. Putting quotes afterwards with something in it, will change your name
     mkdir = Make Directory
     rmdir = Remove directory (Only possible if the repository is empty)
@@ -111,3 +112,9 @@ Minutes:
     We commit our own notes to the class folder (make sure you're putting it in the Notes folder)
     A useful error to remember how to navigate, is that our professor has two-factor authentication turned on for github, and he cannot login to github through git Bash, because the command line doesn't support or understand this method. He has to set up an SSH key so he can do the login.
     Break - after we will talk about SSH
+    SSH "Secure Shell" A way to connect to secure servers remotely. There's that, and then there's SSH key pairs. A little different than the online authentication.
+    "ssh-keygen" is the command for generating an SSH key. You'll do this if you want to push without having to log in every time. (Matt's is possibly saved to the keychain) 
+    So what it does is generate two keys: the private and public key, which will be looked at (unhashed) by my computer and if they connect as compatable, then it's a more seccure and more streamlined workspace for you.
+    Randomart images are for humans to pretty much see if things are familiar to us
+    We'll manually place our generated public keys into our profile settings on Github. But this also works anywhere that supports ssh keys (github, bitcoin(?) etc)
+    If you haven't set this up, or if you've generated one but not set it up with github, you can still push to the repository, you'll just have to continue to log in each time.
