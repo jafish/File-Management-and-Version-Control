@@ -1,6 +1,7 @@
-VERSION CONTROL CLASS NOTES TEXT FILE: 
+VERSION CONTROL CLASS NOTES TEXT FILE
 Lindsay Fenwick
-Day 1
+
+**Day 1
 
 Minutes:
     Class syllabus and being in class, rules for achiving standard of work
@@ -18,13 +19,13 @@ Minutes:
     Covering the GitHub class repository
 
 Notes:
-    **Use Git BASH - for these commands
+    Use Git BASH - for these commands
 
     A git repository is a "hidden" (optionally shown) folder of history of changes in your file control, when you create a repository for your project. In other words, it is a folder of info within your project, not hidden "within git"
 
     Git opperates on commits, not saves. You can save as many versions as you want, but commits are what it keeps.
 
-    **A strange note, "objects" are a commited change, usually.
+    A strange note, "objects" are a commited change, usually.
 
     Repository = folder = project
     
@@ -78,7 +79,7 @@ Chapter 2: Basics
     (master) $: = indicates that we're on the git branch which is the master. an * after the word master indicated uncommitted changes in our working copy (a difference between our copy and the master)
     Pg. 35: Before you can commit, you need to track. Before you can track, you need to add to the git database. (but "track" is not a command, just what is a part of adding)
     Committing is NOT adding a file. It's adding a change to an existing file, even if that change was negative (delete these lines). Because of that, the first thing we need to do is add a file. 
-    **Question I suppose: adding a file is not the same as creating a repository, as I understand it, because your repository could be for your entire website, where you added a second css file for some reason. (Resolved: yes)
+    Question I suppose: adding a file is not the same as creating a repository, as I understand it, because your repository could be for your entire website, where you added a second css file for some reason. (Resolved: yes)
     Another name for git add is "staging"
     Unlike the rest of the centralized system, the staging area is on your computer alone
     Pg.40: You can "add" a list of many things, including files you just want to commit updates to, all in one line.
@@ -102,7 +103,7 @@ Chapter 3: Branches
 Questions for class which are clarifications and not quite "issues":
     Explain the checkout command in reference to branches? (p.54)
     
-Day 2 Notes:
+**Day 2
 
 Minutes:
     The class discusses differences between subrepositories and (subdirectories?) and the pros / cons of adding our own work to the class repository. Different ways of using GitHub will happen depending on our work enviornment and what the people around us decide will be their practice.
@@ -110,7 +111,7 @@ Minutes:
     Having updated our own repositories of our notes, the class commits our changes, "mv"s our files out of our personal repositories and into (renamed) into the class repository.
     If we have an error for an "upstream branch," we should re-try a pull request, for the most updated master copy of our class repository.
     We commit our own notes to the class folder (make sure you're putting it in the Notes folder)
-    A useful error to remember how to navigate, is that our professor has two-factor authentication turned on for github, and he cannot login to github through git Bash, because the command line doesn't support or understand this method. He has to set up an SSH key so he can do the login.
+    A useful error to remember how to navigate, is that our professor has two-factor authentication turned on for github, and he cannot login to github through git Bash, because the command line doesn't support or understand this method. He has to set up an SSH key so he can do the login. We will do the same, because it is best practice.
     Break - after we will talk about SSH
     SSH "Secure Shell" A way to connect to secure servers remotely. There's that, and then there's SSH key pairs. A little different than the online authentication.
     "ssh-keygen" is the command for generating an SSH key. You'll do this if you want to push without having to log in every time. (Matt's is possibly saved to the keychain) 
@@ -119,5 +120,10 @@ Minutes:
     We'll manually place our generated public keys into our profile settings on Github. But this also works anywhere that supports ssh keys (github, bitcoin(?) etc)
     If you haven't set this up, or if you've generated one but not set it up with github, you can still push to the repository, you'll just have to continue to log in each time.
     Visit the Github help pages (for windows or mac depending on what you are on) for help regarding SSH keys, or changing your push origin to accept ssh. The book will go further into this on another day's reading.
+    Remotes are locations you can push and pull from. You can have more than one. You can set up a remote on your website (such as a small orange).
     
-Homework for next week:
+Homework for Day 3:
+    Practice!
+    Commit updates onto a real project you work on in another class.
+    Continue to read the textbook. (Chapters 4 & 5)
+    Make at least one change to someone else's notes. (A correction or addtion, not deletion)
