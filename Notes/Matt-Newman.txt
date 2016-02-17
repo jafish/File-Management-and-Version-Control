@@ -19,7 +19,11 @@ git fetch [remote-name] - fetches info from remote
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 February 16th, 2016
 git pull url - tells git to give you updated git repository
-git push 
+git push origin master - sends current commits to github
+ls ~/.ssh - checks your ssh keys
+ssh-keygen - generates key pair for ssh
+eval "$(ssh-agent -s)" - runs ssh agent
+
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 March 1st, 2016
