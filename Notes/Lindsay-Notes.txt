@@ -118,3 +118,6 @@ Minutes:
     Randomart images are for humans to pretty much see if things are familiar to us
     We'll manually place our generated public keys into our profile settings on Github. But this also works anywhere that supports ssh keys (github, bitcoin(?) etc)
     If you haven't set this up, or if you've generated one but not set it up with github, you can still push to the repository, you'll just have to continue to log in each time.
+    Visit the Github help pages (for windows or mac depending on what you are on) for help regarding SSH keys, or changing your push origin to accept ssh. The book will go further into this on another day's reading.
+    
+Homework for next week:
