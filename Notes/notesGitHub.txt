@@ -59,4 +59,20 @@ git remote
 git pull origin master (pulls latest version)
 git push origin master (pushes your version up)
 
+SSH secure shell
 
+http://cdn.meme.am/images/300x/2026921.jpg
+
+allows you to stay signed in
+
+ls ~/.ssh lists home directory
+
+ssh-keygen generates a key
+
+cat ls ~/.ssh/id_rsa.pub
+
+https://help.github.com/articles/generating-an-ssh-key/
+
+set up project with github
+make a correction or addition to someones notes
+read chapters 4-5

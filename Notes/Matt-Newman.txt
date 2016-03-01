@@ -16,10 +16,32 @@ git commit -- message   - commits to the repository with message
 git clone url- tells git to clone specific url 
 git remote -v - checks what remotes are installed on working directory
 git fetch [remote-name] - fetches info from remote
+git -am “message” - adds, commits with message given
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 February 16th, 2016
 git pull url - tells git to give you updated git repository
-git push 
+git push origin master - sends current commits to github
+ls ~/.ssh - checks your ssh keys
+ssh-keygen - generates key pair for ssh
+eval "$(ssh-agent -s)" - runs ssh agent
+git remote rm origin - removes old origin
+git remote add origin urlfromgit - removes old origin
+
+git remote -v - gives you info for your remotes
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 March 1st, 2016
+Dear diary,
+I am a man of diginity, and this git has really been pulling down my trousers.
+I will get my vengeance.
+I will.
+-Matt Newman
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+March 3rd, 2016
+Dear Matt Newman,
+Have you extracted that vengeance yet?
+Let me know how it goes,
+-Lindsay Fenwick
+
+http://s.quickmeme.com/img/af/af59adba05b747105920df6b3236e29a306
