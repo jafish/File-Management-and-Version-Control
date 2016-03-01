@@ -18,6 +18,8 @@ Minutes:
     GitHub is a "remote" which is a synchronization tool
     Covering the GitHub class repository
 
+http://s.quickmeme.com/img/f4/f4b6387c99ebd2b9ad4ab793e1a763f2cbc071d65427c7d0d0f92352731be019.jpg
+
 Notes:
     Use Git BASH - for these commands
 

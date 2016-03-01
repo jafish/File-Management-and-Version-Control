@@ -31,6 +31,8 @@ git pull origin master (pulls latest version)
 git push origin master (pushes your version up)
 Nick Parr leaves */
 
+http://s.quickmeme.com/img/81/81c1836f2d42607a1e050fdc4da141655abce7f60d9b4a6b7ce22a518a7d57ec.jpg
+
 a git repository is a folder in your project folder where it keeps track of changes
 git commands often act on currect repository only.
 Common syntax format - mv thingYouWantToDo thingYouWantToActOn
