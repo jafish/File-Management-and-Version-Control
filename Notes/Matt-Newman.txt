@@ -27,3 +27,8 @@ eval "$(ssh-agent -s)" - runs ssh agent
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 March 1st, 2016
+Dear diary,
+I am a man of diginity, and this git has really been pulling down my trousers.
+I will get my vengeance.
+I will.
+-Matt Newman

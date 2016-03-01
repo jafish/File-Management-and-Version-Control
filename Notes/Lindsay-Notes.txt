@@ -1,7 +1,8 @@
 VERSION CONTROL CLASS NOTES TEXT FILE
 Lindsay Fenwick
 
-**Day 1
+**Day 1,923
+I'm exhausted, I don't know how much more of this Git stuff I can take. They told me it would be difficult, but I expected to be home within a week. I've forgotten what the real world is like.
 
 Minutes:
     Class syllabus and being in class, rules for achiving standard of work
