@@ -61,6 +61,8 @@ git push origin master (pushes your version up)
 
 SSH secure shell
 
+http://cdn.meme.am/images/300x/2026921.jpg
+
 allows you to stay signed in
 
 ls ~/.ssh lists home directory
