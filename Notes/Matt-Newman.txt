@@ -23,7 +23,10 @@ git push origin master - sends current commits to github
 ls ~/.ssh - checks your ssh keys
 ssh-keygen - generates key pair for ssh
 eval "$(ssh-agent -s)" - runs ssh agent
+git remote rm origin - removes old origin
+git remote add origin urlfromgit - removes old origin
 
+git remote -v - gives you info for your remotes
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 March 1st, 2016
