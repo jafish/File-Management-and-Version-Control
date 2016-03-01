@@ -1,4 +1,4 @@
-2/2/16 - First Class (Git)
+﻿2/2/16 - First Class (Git) - I always fly first class.
 
 
 On That Day:  Version Control, Git Commands, Create first repo.
