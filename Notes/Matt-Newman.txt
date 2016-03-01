@@ -16,6 +16,7 @@ git commit -- message   - commits to the repository with message
 git clone url- tells git to clone specific url 
 git remote -v - checks what remotes are installed on working directory
 git fetch [remote-name] - fetches info from remote
+git -am “message” - adds, commits with message given
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 February 16th, 2016
 git pull url - tells git to give you updated git repository
