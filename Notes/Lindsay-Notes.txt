@@ -1,8 +1,7 @@
 VERSION CONTROL CLASS NOTES TEXT FILE
 Lindsay Fenwick
 
-**Day 1,923
-I'm exhausted, I don't know how much more of this Git stuff I can take. They told me it would be difficult, but I expected to be home within a week. I've forgotten what the real world is like.
+**Day 1
 
 Minutes:
     Class syllabus and being in class, rules for achiving standard of work
@@ -158,3 +157,7 @@ Chapter 5: History
     Commit messages will be handled differently in different environments, but be useful, detailed enough, consistent, and use the active voice.
     git diff shows changes between two versions of a (text-readable) file. There are more user-friendly ways to compare these changes, such as Kaleidoscope.
     TAGS** Are "human readable commit IDs. Alongside that long string of numbers, they are for input and readability anywhere git takes commit ids. Something could be prada.0
+    
+**Day 3
+
+Minutes:
