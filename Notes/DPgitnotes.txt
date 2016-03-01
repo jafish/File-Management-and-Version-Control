@@ -25,3 +25,5 @@ a git repository is a folder in your project folder where it keeps track of chan
 git commands often act on currect repository only.
 Common syntax format - mv thingYouWantToDo thingYouWantToActOn
 git operates on commmits - only cares about changes that you explicitly commit
+
+these are some good notes. 
