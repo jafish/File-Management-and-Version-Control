@@ -1,3 +1,5 @@
+THIS IS MY LOCAL CHANGE
+
 clobber - overwriting/destroying important changes
 Distributed Version Control - Git, Perforce, etc
 repository- basically a project
