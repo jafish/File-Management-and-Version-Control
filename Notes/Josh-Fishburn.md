@@ -28,7 +28,7 @@ This answer suggests having a separate key "per origin"[^Separate-Key], but othe
 [^MultipleKeys]: http://serverfault.com/questions/80478/ssh-do-you-use-one-private-public-key-pair-for-each-remote-machine-or-a-single   
 [^Separate-Key]: http://superuser.com/questions/189355/is-it-ok-to-share-private-key-file-between-multiple-computers-services  
 [^Separate-Key-2]: http://serverfault.com/questions/170682/using-same-ssh-private-key-across-multiple-machines
-=======
+======= <-- This was actually the separator git conflict marker - I just missed it!
 # Josh's Notes
 
 Rubadubdub, here's to Git-Hub
