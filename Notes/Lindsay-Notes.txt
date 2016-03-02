@@ -18,10 +18,8 @@ Minutes:
     GitHub is a "remote" which is a synchronization tool
     Covering the GitHub class repository
 
-http://s.quickmeme.com/img/f4/f4b6387c99ebd2b9ad4ab793e1a763f2cbc071d65427c7d0d0f92352731be019.jpg
-
 Notes:
-    Use Git BASH - for these commands
+    Use Git BASH - for these commands, or if you're on a Mac, terminal.
 
     A git repository is a "hidden" (optionally shown) folder of history of changes in your file control, when you create a repository for your project. In other words, it is a folder of info within your project, not hidden "within git"
 
@@ -57,16 +55,18 @@ Important CMD Commands:
     git rm [filename] = "Remove" If your "addition to the repository" is a deletion of a file, you can't go using the Add command, so use this to "really" delete the file, to move on to your commit
     git clone [url] = Will put a repository that you find on github in this current folder location
     If your folder has a space in the name ("Version Control") you can put quotes around it when using ls to navigate through it.
-    git pull = make sure you're synched to where the repository is located. Can do a --dry-run (on fetch)
+    git pull repositoryname branchname = make sure you're synched to where the repository is located. Can do a --dry-run (on fetch)
     git log = read previous versions offline. Can add qualifiers such as git log new-homepage (the branch for that)
-    git diff OR... diff --git a/readme.md b/readme.md
+    git diff OR... diff --git a/readme.md b/readme.md = reads out the differences between two versions
+    cat Notes.txt = reads out notes onto the command line
+    git checkout branch = switch the spot where you're working on.
+    git acommand --help = don't be afraid to use!
+    git branch name = creates a named branch
+    git checkout branchname = move to that branch
     
 To utlize the move folder function in a way that isn't renaming:
     mv ../ClassNotes.txt .
     move upper directory file name to current place
-    
-Homework for Day 2
-(Notes for Chapters 1-3)
 
 Chapter 1: Thinking in Versions
     Version control systems like git can be thought of as saving "versions" not as saving each thing each time (you likely don't commit the 18 saves you make in an hour of working)
@@ -127,12 +127,6 @@ Minutes:
     Visit the Github help pages (for windows or mac depending on what you are on) for help regarding SSH keys, or changing your push origin to accept ssh. The book will go further into this on another day's reading.
     Remotes are locations you can push and pull from. You can have more than one. You can set up a remote on your website (such as a small orange).
     
-Homework for Day 3:
-    Practice!
-    Commit updates onto a real project you work on in another class.
-    Continue to read the textbook. (Chapters 4 & 5)
-    Make at least one change to someone else's notes. (A correction or addtion, not deletion)
-    
 Chapter 4: Remotes
     By git working offline by default, we're able to make as many changes as we need offline. But the advantage of git is collaboration, which most people do through remotes.
     Github is an example of a remote. Could also be your own hosted website, or Bitbucket.org. Becuase of the decentralized design of git, where you could push or pull directly from teammates' computers, which is helful in some ways and confusing in others, remotes help control things by centralizing them, which is helpful to teams. "Hub Model" as the author titles.
@@ -163,3 +157,8 @@ Chapter 5: History
 **Day 3
 
 Minutes:
+    Went over which aspects of the homework people had trouble with.
+    Each person creates a local branch and then pushes it to the remote.
+    Talked about conflict markers. After the break we're going to purposefully create these.
+    You have to check out a branch in order to commit to it.
+    
