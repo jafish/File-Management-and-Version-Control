@@ -161,4 +161,16 @@ Minutes:
     Each person creates a local branch and then pushes it to the remote.
     Talked about conflict markers. After the break we're going to purposefully create these.
     You have to check out a branch in order to commit to it.
+        STEPS:
+        Create a branch
+        Checkout that branch
+        Commit to the branch locally
+        Push your branch to the repository
+        
+    In order to merge a branch back onto the master, you have to be checked out to the master. (Expanded below)
     
+    **SAVE BEFORE YOU DO ANYTHING WITH GIT**
+    If your branch is checked out and you have written changes to your text file, but not saved them, and you switched branches to the master, Brackets will attempt to refresh, and you'll lose any unsaved changes.
+    
+    You will merge TO the currently checked out branch, and FROM the one that you write in the terminal. So, if you're in LindsaysBranch, and you say git merge master, then LindsaysBranch is updated with the most current version of whatever's in the master branch.
+    If, separate from the master where we're both on our own branches, you're on your branch and a coworker, on their branch, has some really cool changes, and you want those changes your coworker has... you don't have to wait for them to merge with the master. You can be on your branch and merge their branch into yours.
