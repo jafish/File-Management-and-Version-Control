@@ -80,3 +80,6 @@ read chapters 4-5
 branching
 git branch nameofBranch creates branch with desired name
 git checkout nameofBranch changes to work on branch
+git merge nameofBranch merges branches
+
+git commit -am adds all the things
