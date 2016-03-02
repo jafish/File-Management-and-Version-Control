@@ -76,3 +76,7 @@ https://help.github.com/articles/generating-an-ssh-key/
 set up project with github
 make a correction or addition to someones notes
 read chapters 4-5
+
+branching
+git branch nameofBranch creates branch with desired name
+git checkout nameofBranch changes to work on branch
