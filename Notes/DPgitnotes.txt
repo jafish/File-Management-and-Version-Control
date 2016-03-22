@@ -23,19 +23,21 @@ ssh-keygen // create ssh key stuff
 cat ~/.ssh/id_rsa.pub //to get key, you should then go into GitHub settings to connect this to your github account
 git remote set-url origin <SSH url> // allows SSH shell
 
-*/Nick Parr was here
 pushing up to github
-git remote add origin url (set url to origin)
+git remote add origin url ( set url to origin )
 git remote
 git pull origin master (pulls latest version)
 git push origin master (pushes your version up)
-Nick Parr leaves */
 
-http://s.quickmeme.com/img/81/81c1836f2d42607a1e050fdc4da141655abce7f60d9b4a6b7ce22a518a7d57ec.jpg
 
 a git repository is a folder in your project folder where it keeps track of changes
 git commands often act on currect repository only.
 Common syntax format - mv thingYouWantToDo thingYouWantToActOn
 git operates on commmits - only cares about changes that you explicitly commit
 
-these are some good notes. 
+-use branches for levels of stability and some potentially bad ideas
+-the --rebase option (git pull --rebase origin master) tells get to move all of commits to tip of the master branch after synchronising it with the changes of the central repo
+-merge conflict? run git status to find out what it is. then write git add <the file> and git rebase --continue to continue the push
+-git rebase --abort to be before you tried to pull
+-Feature Branch Workflow - all feature development should take place in dedicated branches instead of the master. makes it easy for multiple devs to work on features without screwing with the master branch
+-Forking workflow - ideal for open source projects where not all pushes can be trusted
