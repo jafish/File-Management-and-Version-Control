@@ -51,3 +51,44 @@ head: reference to the last committ in the current working branch
 untracked files
 
 or fork instead of clone
+
+# Git for Humans Chapters 1-3
+
+Grace Hopper is credited for the term "bugs" related to software after discovering that moth nests were interfereing with the processing of the Harvard Mark II
+
+Checking out a file - just like a library book, no one else can edit that file until you're done with it
+
+cloning will create a new working directory, init a new repo and adds a remote called origin
+
+adding vs committing - adding adds to git's database so that the file may be tracked
+
+branch - a virtual copy of a project within the project where changes can be made freely without affecting the original branch
+
+topic branches - branches with a particular topic or goal separate from master, ie "new homepage"
+
+# Git for Humans Chapters 4-5
+
+remote - copy of a git project that lives somewhere else, another computer, or a service like github
+
+the hub model - each team mate has a shared copy of the project on a server and then clone their own versions which they made changes to and then push to the hub 
+
+git pull - brings down changes from one branch
+
+git fetch - brings down all changes from an entire repo
+
+# Week 4 Reading Notes
+
+Git Workflows
+
+treat the master branch as anything ready to be deployed 
+
+to work on sometihng new, make a new branch for that specific feature, and committ often
+
+open a pull request when ready for a merge
+
+someone else reviews code
+
+push to master
+
+the Gitflow work flow
+
