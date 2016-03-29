@@ -39,9 +39,9 @@ git repository keeps track of changes in a hidden folder
 
 committed changes are additive
 
-git is tool github is place to upload (remote repository)
+git is a tool, github is place to upload (remote repository)
 
-branching good for doing experiments
+branching  is good for doing experiments
 
 Day 2
 
@@ -51,7 +51,7 @@ fork for different person
 
 branch for same person
 
-if forget to add message type msg then hit "esc" then type ":wq"
+if you forget to add a message type msg then hit "esc" then type ":wq"
 
 pushing up to github
 git remote add origin url (set url to origin)

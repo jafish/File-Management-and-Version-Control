@@ -1,9 +1,9 @@
-VERSION CONTROL CLASS NOTES TEXT FILE
-Lindsay Fenwick
+#VERSION CONTROL CLASS NOTES TEXT FILE
+###Lindsay Fenwick
 
-**Day 1
+##Day 1
 
-Minutes:
+###Minutes:
     Class syllabus and being in class, rules for achiving standard of work
     Difference between plain text and hypertext
     Submit to the class wiki (on github)
@@ -18,10 +18,8 @@ Minutes:
     GitHub is a "remote" which is a synchronization tool
     Covering the GitHub class repository
 
-http://s.quickmeme.com/img/f4/f4b6387c99ebd2b9ad4ab793e1a763f2cbc071d65427c7d0d0f92352731be019.jpg
-
-Notes:
-    Use Git BASH - for these commands
+###Notes:
+    Use Git BASH - for these commands, or if you're on a Mac, terminal.
 
     A git repository is a "hidden" (optionally shown) folder of history of changes in your file control, when you create a repository for your project. In other words, it is a folder of info within your project, not hidden "within git"
 
@@ -33,8 +31,8 @@ Notes:
     
     You CAN set up a remote repository on your web server that you own, taking out the GitHub middleman, but GitHub is a nice way to add functionality (such as user comments) Instead of like a .html it's a .git (cloneable set of folders)
 
-Important CMD Commands:
---These will be used most often, likely you won't use others--
+#Important CMD Commands:
+###--These will be used most often, likely you won't use others--
     pwd = learn where I am
     ls = Learn where I can go
     cd [insert place] = Navigate to a space. Stands for "change directory"
@@ -57,18 +55,20 @@ Important CMD Commands:
     git rm [filename] = "Remove" If your "addition to the repository" is a deletion of a file, you can't go using the Add command, so use this to "really" delete the file, to move on to your commit
     git clone [url] = Will put a repository that you find on github in this current folder location
     If your folder has a space in the name ("Version Control") you can put quotes around it when using ls to navigate through it.
-    git pull = make sure you're synched to where the repository is located. Can do a --dry-run (on fetch)
+    git pull repositoryname branchname = make sure you're synched to where the repository is located. Can do a --dry-run (on fetch)
     git log = read previous versions offline. Can add qualifiers such as git log new-homepage (the branch for that)
-    git diff OR... diff --git a/readme.md b/readme.md
+    git diff OR... diff --git a/readme.md b/readme.md = reads out the differences between two versions
+    cat Notes.txt = reads out notes onto the command line
+    git checkout branch = switch the spot where you're working on.
+    git acommand --help = don't be afraid to use!
+    git branch name = creates a named branch
+    git checkout branchname = move to that branch
     
 To utlize the move folder function in a way that isn't renaming:
     mv ../ClassNotes.txt .
     move upper directory file name to current place
-    
-Homework for Day 2
-(Notes for Chapters 1-3)
 
-Chapter 1: Thinking in Versions
+###Chapter 1: Thinking in Versions
     Version control systems like git can be thought of as saving "versions" not as saving each thing each time (you likely don't commit the 18 saves you make in an hour of working)
     Manually saving file versions might work fine on "a photoshop doc" but with something like a team, or something complex like a website, git works best
     Git can be hosted on a small orange, for example, and each coworker can access that repository from their computer. Very easy for work situations
@@ -76,7 +76,7 @@ Chapter 1: Thinking in Versions
     Understanding that with things like Dropbox, the working copy on your computer can be accessed offline, but that the centralized server-based copy is the master version. With Git, a decentralized verion control system, an entire copy of every part of the history of that file is available on everyone's computer and the server.
     Using git is conceptually different in how we understand change - it's not one file that is being changed, but three versions of files, the old master, the working copy, and the new master. All exsist.
     
-Chapter 2: Basics
+###Chapter 2: Basics
     The command line is a shell, in that it protects you from doing too much (?) but that you could still delete your entire opperating system from it, so, is it really saving you from anything?
     Bash is the name of a common shell
     Don't be afraid if it's terse - sometimes running something will not let you know anything happened at all, if it was sucessfull. It'll just make a new directory and that's that.
@@ -92,7 +92,7 @@ Chapter 2: Basics
     Git not understanding us manually moving files in folders-- you can always "explain yourself to git later" but you can also see this as incentive to do things git's way
     The add --all command... don't overthink it. It's good, usefull, you're encouraged to use it.
     
-Chapter 3: Branches
+###Chapter 3: Branches
     Most basic level: branches are scratch pads that could possibly turn into something down the line.
     Oh god, terrible knowledge to learn, that commits can be made to multiple branches, and branches aren't like folders or singular "places" (see p.52)
     You can think of branches like an inbox filter called "notes from mom". Your email can be in the "master" or the "inbox" and also in the "subfolder" or "branch"
@@ -108,9 +108,9 @@ Chapter 3: Branches
 Questions for class which are clarifications and not quite "issues":
     Explain the checkout command in reference to branches? (p.54)
     
-**Day 2
+##Day 2
 
-Minutes:
+###Minutes:
     The class discusses differences between subrepositories and (subdirectories?) and the pros / cons of adding our own work to the class repository. Different ways of using GitHub will happen depending on our work enviornment and what the people around us decide will be their practice.
     The class clones the class repository. (Using the https url.) We do this as opposed to a fork (as Kevin from outside our class did), because a fork would be for anticipating needing to reconnect our changes to the official files without being members ourselves. Since we are members and have authority, we clone.
     Having updated our own repositories of our notes, the class commits our changes, "mv"s our files out of our personal repositories and into (renamed) into the class repository.
@@ -127,13 +127,7 @@ Minutes:
     Visit the Github help pages (for windows or mac depending on what you are on) for help regarding SSH keys, or changing your push origin to accept ssh. The book will go further into this on another day's reading.
     Remotes are locations you can push and pull from. You can have more than one. You can set up a remote on your website (such as a small orange).
     
-Homework for Day 3:
-    Practice!
-    Commit updates onto a real project you work on in another class.
-    Continue to read the textbook. (Chapters 4 & 5)
-    Make at least one change to someone else's notes. (A correction or addtion, not deletion)
-    
-Chapter 4: Remotes
+###Chapter 4: Remotes
     By git working offline by default, we're able to make as many changes as we need offline. But the advantage of git is collaboration, which most people do through remotes.
     Github is an example of a remote. Could also be your own hosted website, or Bitbucket.org. Becuase of the decentralized design of git, where you could push or pull directly from teammates' computers, which is helful in some ways and confusing in others, remotes help control things by centralizing them, which is helpful to teams. "Hub Model" as the author titles.
     We could, of course, be pulling from repositories which are also local.
@@ -149,7 +143,7 @@ Chapter 4: Remotes
     Rule of thumb: always pull just before you push.
     Fetch VS Pull: fetch pulls down everything, not just branches.
     
-Chapter 5: History
+###Chapter 5: History
     You can always go back and explore earlier versions of your project.
     The simpilest way: Read the ordered list of commits with git log. This is made more user-friendly with tools like github's commit search.
     You can add qualifiers to git log, such as git log new-homepage
@@ -160,6 +154,46 @@ Chapter 5: History
     git diff shows changes between two versions of a (text-readable) file. There are more user-friendly ways to compare these changes, such as Kaleidoscope.
     TAGS** Are "human readable commit IDs. Alongside that long string of numbers, they are for input and readability anywhere git takes commit ids. Something could be prada.0
     
-**Day 3
+##Day 3
 
-Minutes:
+###Minutes:
+    Went over which aspects of the homework people had trouble with.
+    Each person creates a local branch and then pushes it to the remote.
+    Talked about conflict markers. Next week we're going to purposefully create these.
+    
+###Notes:
+    You have to check out a branch in order to commit to it.
+        STEPS:
+        Create a branch
+        Checkout that branch
+        Commit to the branch locally
+        Push your branch to the repository
+        
+    In order to merge a branch back onto the master, you have to be checked out to the master. (Expanded below)
+    
+    ####**SAVE BEFORE YOU DO ANYTHING WITH GIT**
+    If your branch is checked out and you have written changes to your text file, but not saved them, and you switched branches to the master, Brackets will attempt to refresh, and you'll lose any unsaved changes.
+    
+    You will merge TO the currently checked out branch, and FROM the one that you write in the terminal. So, if you're in LindsaysBranch, and you say git merge master, then LindsaysBranch is updated with the most current version of whatever's in the master branch.
+    
+    If, separate from the master where we're both on our own branches, you're on your branch and a coworker, on their branch, has some really cool changes, and you want those changes your coworker has... you don't have to wait for them to merge with the master. You can be on your branch and merge their branch into yours.
+    
+###Git Branching Workflows
+    *Long Running Branches:* A stable master and branches for long developmental periods.
+    *Topic Branches:* Shortlived quick fix branches where development targets bugs or new ideas.
+
+###Comparing Git Workflows
+    *Centralized Workflow:* Familiar with in-class working. All of us are pushing to the location of the Github page.
+    *Feature Branch Workflow:* Not dissimilar from long running branches from other page.
+    *Gitflow Workflow:* Includes a "historical branch" treatment of the Master, where you only publish to the master on each version release, and work on feature branches which are branching off of your "real master" or your working copy for each development cycle. With this, there is room for "hotfixes" which work directly with the historical copy, serving to effectivley patch releases.
+    *Forking Workflow:* A way to securely work with either a manager or a thrid party. Every developer has their own local and server side copies, which means that there's more security in accepting code changes.
+
+###A Successful Git Branching Workflow
+    Not dissimilar from the previous reading's Gitflow Workflow, only with more devleoped rules in outlining the process. (i.e.: Feature Branches Must merge back into Develop)
+    
+###Git Workflows That Work
+    A historic and critical look at the Gitflow Workflow approach: what it provided and what about it doesn't necessarily make it "the" approach to git.
+    Github as a company is described as not having a "historic" master approach, but that anything in the master is deployable.
+    Skullcandy's approach added a QA branch which acted like the master alongside it, creatable and destroyable easily, which was a working testable space. 
+    The master only approach (branchless) is appropriate for some workers, specifically small projects / few people.
+    At the end of the reading are some personal practice tips for how to work effectivley with your team, for whatever environment you are in.
