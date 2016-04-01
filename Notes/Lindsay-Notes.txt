@@ -177,3 +177,23 @@ Questions for class which are clarifications and not quite "issues":
     You will merge TO the currently checked out branch, and FROM the one that you write in the terminal. So, if you're in LindsaysBranch, and you say git merge master, then LindsaysBranch is updated with the most current version of whatever's in the master branch.
     
     If, separate from the master where we're both on our own branches, you're on your branch and a coworker, on their branch, has some really cool changes, and you want those changes your coworker has... you don't have to wait for them to merge with the master. You can be on your branch and merge their branch into yours.
+    
+###Git Branching Workflows
+    *Long Running Branches:* A stable master and branches for long developmental periods.
+    *Topic Branches:* Shortlived quick fix branches where development targets bugs or new ideas.
+
+###Comparing Git Workflows
+    *Centralized Workflow:* Familiar with in-class working. All of us are pushing to the location of the Github page.
+    *Feature Branch Workflow:* Not dissimilar from long running branches from other page.
+    *Gitflow Workflow:* Includes a "historical branch" treatment of the Master, where you only publish to the master on each version release, and work on feature branches which are branching off of your "real master" or your working copy for each development cycle. With this, there is room for "hotfixes" which work directly with the historical copy, serving to effectivley patch releases.
+    *Forking Workflow:* A way to securely work with either a manager or a thrid party. Every developer has their own local and server side copies, which means that there's more security in accepting code changes.
+
+###A Successful Git Branching Workflow
+    Not dissimilar from the previous reading's Gitflow Workflow, only with more devleoped rules in outlining the process. (i.e.: Feature Branches Must merge back into Develop)
+    
+###Git Workflows That Work
+    A historic and critical look at the Gitflow Workflow approach: what it provided and what about it doesn't necessarily make it "the" approach to git.
+    Github as a company is described as not having a "historic" master approach, but that anything in the master is deployable.
+    Skullcandy's approach added a QA branch which acted like the master alongside it, creatable and destroyable easily, which was a working testable space. 
+    The master only approach (branchless) is appropriate for some workers, specifically small projects / few people.
+    At the end of the reading are some personal practice tips for how to work effectivley with your team, for whatever environment you are in.
