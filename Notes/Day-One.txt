@@ -1,0 +1,70 @@
+Take notes in a plain text file and upload as an issue in github repository.
+
+Before github: constant communication, backups, google docs, synchronize local files, dropbox
+
+Git: Distributed Version Control
+
+Oldr central version controls used a checkout method so that only one person can make changes to it. 
+Server access was needed to see the history of file changes.
+
+Git allows anyone to check out a file. If someone wants to work on it, they clone the repoitorty and will have the history 
+of a file change.
+
+Git bash is a shell
+
+pwd - print working directory - where you are
+ls - what's in the directory
+cd - change directory
+clear - removes all commands and moves cursor to the top
+man - manuel - brings you to a page describing a command and examples (doesn't work on windows git bash)
+../ - goes up a level
+.. - goes up three levels (will go to root if there isn't enough levels)
+mkdir - make a directory
+rmdir - remove a directory, directory has to be empty
+mv - move or renamne a file/directory
+git config --global user.name " " -\
+git config --global user.email " " - global command, any change made would give out a name and an email
+\ - escape sequence space is used for folders and files with spaces in it
+git init - initializes git in an empty repository
+git status - checks untracked files
+rm -rf .git - removes everything in a folder immediatley
+git add * - everything in the folder
+git add --all - add to the staging, ready to be commited
+git commit -m -commit with a message
+git rm (file name) - removes it from the repository and folder
+git clone (link) - clones repository (places it right where you run the command) 
+
+git is hidden by default
+
+Repository - word used to descripe a project
+
+Don't put spaces in your file names, use dashes
+
+Staged: files that are ready to be commited
+
+Saving doesn't affect git. It only cares about commiting the file versions to the repository. 
+It will then create an object that shows the changes between the change and previous version.
+Everytime you commit, you add to the repositories history. (includes removing files)
+
+Staging and then commiting this text file. If ran successfully, nothing will show up. run git status to check
+Don't manually go into a folder and delete a git folder
+
+any action that you do in git creates an object that controls and stores the difference between versions and has the older version
+
+github is one possible remote for a repository
+
+github hosts open source projects, provides good structure
+github is hosting for git repositories, wiki, documentation, feedback from users
+
+can setup your own remote on a web service you own
+
+Can clone any repoistory on github, anything ending in git can be cloned
+
+Branching is commiting a change so that it doesn't affect the mast bracnh. 
+Master branch holds first and all changes on the master branch
+
+Working/commiting to the master branch with multiple people is dangerous because it can overwrite other changes
+
+Post questions as issues on our github
+
+Read the first three chapter of the git for humans book
