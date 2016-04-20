@@ -1,0 +1,52 @@
+--------
+02_02_16
+--------
+
+Command Line Basics
+"pwd" prints working directory (the current directory you are in)
+"ls" lists contained files and directories
+"cd" changes directory to relative path
+"cd .." goes up one directory layer (from current directory)
+
+Git Repository, a small folder 'hidden' within your project's folder
+Not to be edited with directly, edited with command line or GUIs
+
+Git Commands
+"git config --global user.name" (a global command) for viewing and changing user name
+"git config --global user.nemail" (a global command) for viewing and changing email
+
+Command Line Directories
+"mkdir" makes a new directory with a given name
+"rmdir" deletes a directory with the given name
+"mv [CurrentName] [NewName]" renames a directory called [CurrentName] into [NewName]
+
+More Git Commands
+"git init" make a git repository
+"git status" prints the status of the git repository
+"git add" or "git commit" adds a file to a repository
+"git rm --cached" unstages a file
+
+Git repositories read commits, 
+file change history is always visible,
+even if deleted so long as it was part of the repository
+
+Cloning Repositories
+"git clone"
+
+--------
+02_16_16
+--------
+
+SSH (Secure SHell)
+Securely access remote devices
+
+SSH Keys
+Pair
+Private Key(Password) + Public Key(Available to Upload)
+
+Command Line Public Key Retrieval
+"cat ~/.ssh/[name]"
+
+Command Line Copy to Copyboard
+"pbcopy < [name]"
+

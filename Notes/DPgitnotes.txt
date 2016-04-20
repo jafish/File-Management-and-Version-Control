@@ -1,0 +1,54 @@
+clobber - overwriting/destroying important changes
+Distributed Version Control - Git, Perforce, etc
+repository- basically a project
+staged - file is ready to be submitted
+
+pwd //- print working directory
+ls //- list directory contents
+cd //- change directory [ex: cd ../..]
+clear //- clears window
+man //- (mac) manual for a given command [ex: man ls]
+git config --global user.name/user.email "xxxxx"  //- create username or email
+mkdir //- make directory
+rmdir //- remove directory (if empty)
+mv //- rename a file [ex: mv Version VersionControl //renames Version to VersionControl]
+git init //- initialize empty Git repository
+git status
+git add --all
+git commit [--message/-m] "Initial Commit"
+rm <filename> // remove file
+git rm <filename> // remove file from repository / stage
+git clone <url> // clone repo
+ssh-keygen // create ssh key stuff
+cat ~/.ssh/id_rsa.pub //to get key, you should then go into GitHub settings to connect this to your github account
+git remote set-url origin <SSH url> // allows SSH shell
+
+pushing up to github
+git remote add origin url ( set url to origin )
+git remote
+git pull origin master (pulls latest version)
+git push origin master (pushes your version up)
+
+
+a git repository is a folder in your project folder where it keeps track of changes
+git commands often act on currect repository only.
+Common syntax format - mv thingYouWantToDo thingYouWantToActOn
+git operates on commmits - only cares about changes that you explicitly commit
+
+-use branches for levels of stability and some potentially bad ideas
+-the --rebase option (git pull --rebase origin master) tells get to move all of commits to tip of the master branch after synchronising it with the changes of the central repo
+-merge conflict? run git status to find out what it is. then write git add <the file> and git rebase --continue to continue the push
+-git rebase --abort to be before you tried to pull
+-Feature Branch Workflow - all feature development should take place in dedicated branches instead of the master. makes it easy for multiple devs to work on features without screwing with the master branch
+-Forking workflow - ideal for open source projects where not all pushes can be trusted
+-Git Stash?????????
+
+ENGAGE NATHAN MODE:
+	-git stash is a means to "save" the staging area even when changing to another branch. For example: imagine you are trying to push changes from another local branch 
+	(one different from the local you are currently working on) to a remote repo - the changes that havent been committed on the local branch you are currently on
+	will be lost if you check out the other local branch. Even switching back after pushing the secondary branch to the original local branch will not bring those changes back. 
+	As a result, those changes need to be first staged (git add --all) and then stashed or committed. Only then will switching back to that branch mantain those changes.
+
+-Git reset <branch name> <commit to reset to>
+	-will reset a given branch to a previous commit. This command is golden. If something goes wrong with a merge, or even just a commit, resetting that branch
+	to a previous commit will allow you to retry the problem commit. There is a difference between a HARD and SOFT reset, but I'm not sure about what those differences are

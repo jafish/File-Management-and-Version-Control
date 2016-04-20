@@ -1,0 +1,78 @@
+Nick Parr
+
+Take notes to post on github
+
+use plain text (notepad)
+
+Git (distributed version control)
+
+saves whole history for anyone who gets a file
+
+
+open Git Bash
+
+can use tab to autocomplete
+
+pwd print working directory
+ls lists what is in directory
+cd change directory + location
+clear - clears screen
+cd .. goes back one level
+cd ../.. goes up two
+git config --global user.name gets name use quotes to change name "nick Parr"
+git config --global user.email
+mkdir make +anyName directory
+rmdir +name remove directory
+mv name + new name changes name
+git init creates repository
+git status
+rm -rf .git removes repository
+git add selects files to add
+git commit -m commits file
+git rm name of file removes file to remove from repository
+git clone desired location of file
+
+use "" for files with spaces
+
+repository is a project folder
+git repository keeps track of changes in a hidden folder
+
+committed changes are additive
+
+git is a tool, github is place to upload (remote repository)
+
+branching  is good for doing experiments
+
+Day 2
+
+git pull +destination to update file
+
+fork for different person
+
+branch for same person
+
+if you forget to add a message type msg then hit "esc" then type ":wq"
+
+pushing up to github
+git remote add origin url (set url to origin)
+git remote
+git pull origin master (pulls latest version)
+git push origin master (pushes your version up)
+
+SSH secure shell
+
+http://cdn.meme.am/images/300x/2026921.jpg
+
+allows you to stay signed in
+
+ls ~/.ssh lists home directory
+
+ssh-keygen generates a key
+
+cat ls ~/.ssh/id_rsa.pub
+
+https://help.github.com/articles/generating-an-ssh-key/
+
+set up project with github
+make a correction or addition to someones notes
+read chapters 4-5
