@@ -1,4 +1,4 @@
-2/2/16 - First Class (Git) - I always fly first class.
+﻿2/2/16 - First Class (Git) - I always fly first class.
 
 
 On That Day:  Version Control, Git Commands, Create first repo.
@@ -12,7 +12,7 @@ pwd - print working directory
 cd - change directory 
 
 ls - list directory contents
-
+fsubiferuboefsovrhubovsduboifohi[gsrhio[vsfhiofsvho[irhio[
 man ls- manual list 
 
 cd .. goes back one file
