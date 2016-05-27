@@ -67,4 +67,41 @@ Working/commiting to the master branch with multiple people is dangerous because
 
 Post questions as issues on our github
 
-Read the first three chapter of the git for humans book
+Read the first three chapters of the git for humans book
+
+Chapters 1 & 2 were mostly what we have done in class.
+
+Chapter 3 talks about branching and the many uses of it. You begin with the first branch, the master branch.
+
+git branch <name> - used to create a new branch
+
+A new branch will start wherever the project was last, and any changes made on it will not affect the master branch unless the branch is merged.
+
+git checkout <name> - will switch to any branch you need, including the main branch
+
+git branch - shows you which branch you're in
+
+git checkout -b <name> - will create and switch to that branch
+
+git merge <name> - merges branches
+
+to merge a branch, you must be in the parent branch
+
+use git hub as a remote repository
+
+git remote add origin <url> - sets up origin for remote git repository on a server
+
+git remote - list of all remotes
+
+git clone <url> - sets the origin and creates a local copy
+
+git push <remote> <branch> - once a change has been commited, submits copy of that branch to remote
+
+git pull <remote> <branch> - refreshes copy of branch with newest version on remote
+
+git push -u <remote> <branch> - sets up tracking between local and remote
+
+git fetch <remote> - pulls down everything in a remote repository at once
+
+git log - list of every commit in reverse chronilogical order
+
