@@ -64,11 +64,9 @@ Any student who has a documented disability and is in need of academic accommoda
 
 ## Assignments and Grading
 
-Because this is a mini-course, it does not have a traditional grading component. That doesn't mean that you won't get feedback on your assignments; just that this class will run much more like a workshop than it will like a class. I'll assume that you're here because you have an interest in learning about version control and, specifically, about git and Github. The assignments reflect this. If you complete the assignments and participate, you'll pass. If not, you won't.
+Because this is a mini-course, it does not have a traditional grading component. That doesn't mean that you won't get feedback on your assignments; just that this class will run much more like a workshop than it will like a class. I'll assume that you're here because you have an interest in learning about version control and, specifically, about git and Github. The assignments reflect this.  To achieve a passing grade in this mini-course, students will be required to complete each reading and participate (the specific activities will be assigned at each class meeting) on the class repository on Github.com. There will be a major project at the end of the class involving using git and GitHub to organize a personal project and writing a short paper or blog post summarizing the experience. More details will be provided at our third meeting.
 
-### Grades
-
-To achieve a passing grade in this mini-course, students will be required to complete each reading and participate (the specific activities will be assigned at each class meeting) on the class repository on Github.com. 
+By Monday, 11/12, you'll receive a mid-quarter assessment from me in PAWS (either "Satisfactory", "Caution", or "Unsatisfactory") to communicate how I think you're doing in the class after we've had two of our four meetings.
 
 ## Course Schedule
  
@@ -77,6 +75,6 @@ To achieve a passing grade in this mini-course, students will be required to com
 | Week | Date |                                       Topic                                       | Due | Other Activities |
 |------|------|-----------------------------------------------------------------------------------|-----|------------------|
 |    1 | 10/23  | Introductions, Version Control, Command Line, `clone`, `init`, `commit`, `remote`, and Markdown |     |                  |
-|    2 | 11/06 | Branching and Collaboration                                                       |     |                  |
-|    3 | 11/20  | Remotes and History                                                                                  |     |                  |
-|    4 | 12/04 | Git Workflows and other tools that interoperate with git                                                                                  |     |                  |
+|    2 | 11/06 | Branching, Collaboration, Visualization                                                       |     |                  |
+|    3 | 11/20  | Remotes, History, and Git Workflows                                                                                  |     |                  |
+|    4 | 12/04 | Non-programming workflows, other tools that interoperate with git                                                                                  |     |                  |
