@@ -1,0 +1,14 @@
+Harry Wight
+Chapter 1:
+-”These commits are organized into branches, each representing an evolutionary track in your project’s history, with one branch—the trunk, or master branch—representing the official, primary version.” Pg 7
+-”...the brief pause from coding, having to write a descriptive message, occasionally having to stop and address conflicts between my version and someone else’s—have ultimately helped me develop a more thoughtful and judicious way of working.” Pg 8
+-Why is the Git folder hidden?
+-How does Git store files without one big folder?
+- 
+Chapter 2:
+What is Unix?
+What are options used for? Pg 28
+Pg 34: Nothing is ever lost, just added. Files are “Immutable”
+Just all of the 2nd half of page 34 is ????
+Is anything ever truly deleted from Git?
+I am better than best
