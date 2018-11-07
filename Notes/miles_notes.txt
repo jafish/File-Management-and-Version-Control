@@ -1,0 +1,14 @@
+The simple nature of git makes it very complicated 
+    Git has its own logic
+    one working file - logged prior files
+Forces all group members to follow one system -safe, standard 
+    manages small and large changes 
+    automates busywork
+We need the understanding of State
+    one change = three versions 
+    most computer systems abstract this 
+I've already donee the set-up
+    bash is a command shell 
+        a lot like finder
+    commit or it didn't happen 
+    renaming = new file in th logic of git 
