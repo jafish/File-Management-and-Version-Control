@@ -1,0 +1,6 @@
+
+	* Commits can be in multiple different branches at the same time
+
+	* Master = Primary, stable branch
+
+	* Branch - Project within a project and commits can freely be made while isolated from other items in the repository
