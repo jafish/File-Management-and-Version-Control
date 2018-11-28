@@ -1,0 +1,4 @@
+Merging combines two or more different branches of your project into one unified entity
+First check out the master branch on your local copy
+Then use git merge to pull in changes from the other branch into your copy of master
+You now have a version of master that contains everything plus the amended info
