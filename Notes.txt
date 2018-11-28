@@ -1,2 +1,9 @@
 Evan Vallecilla 
-I guess these are gonna be notes, nice.
+hEvery Git repository starts out with a master branch, to which Git assigns the name master by default. Technically speaking, master is just a branch like any other; what makes it special is its conventional role as the primary, stable version of whatever project is stored in a repo. What “primary” or “stable” mean is largely up to you, and teams use their master branches in any number of ways. The only thing set in stone about master is that it’s the first branch you’ll work with. It won’t be the last.
+	Question Is the master branch a file that we can always reach? When we create a branch and go back can we still reach that branch? The answer is yes but is there ever a way that you might lose a branch or some information.
+	
+
+
+MAKING GOOD COMMITS On 24 Ways, Emma Jane Westby wrote that “commits should really contain whole ideas of completed work” (http://bkaprt. com/gfh/05-08/). For us humans, the job of a commit is to bundle changes into logical chunks. Sometimes, the logic behind a particular set of changes is as simple as: “This is when I, the developer, felt it made sense to save my progress”. But sometimes there’s more of a story—more meaning—behind a change. History 105 For a software tool so concerned with keeping your data clean and consistent, Git is remarkably flexible about exactly what you commit and when. One really cool (and potentially confusing) thing about Git is that it doesn’t require you to stage or commit everything you’ve changed all at once. Git lets you move some changed files—or even changed parts of files—down the path from working copy to committed, while leaving other stuff unstaged or uncommitted. If you make three sort-of-unrelated changes to a single stylesheet file, you can commit each of the changes separately, or together, as you see fit
+	Interest   The service seems perfect for project management. The ability to retrieve all previous copies of a project in a semi organized manner is incredibly important for its users.
+haha yes
