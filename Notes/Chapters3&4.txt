@@ -1,0 +1,11 @@
+Chapter 3
+~when you add a commit on a branch, that new commit supersedes the one that had been there
+before as the branch’s head commit
+~ fast-forward - easiest kind of merge but can’t be done unless the two branches has new
+commits
+~ most conflicts happen when two lines in a merge happen to overlap
+Chapter 4
+~ git hubs decentralized design helps in that you will never truly love a file unless it’s deleted
+from everyone’s computer
+~ all the commands for remotes are two words
+~ branches are local while remotes are external - on another persons computer
